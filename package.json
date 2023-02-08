@@ -1,23 +1,32 @@
 {
-  "name": "curso-cypress-v2",
-  "version": "1.0.0",
-  "description": "Repositório da versão 2 do curso básico de Cypress da Escola Talking About Testing",
-  "main": "src/index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wlsf82/cypress-basico-v2.git"
-  },
-  "keywords": [
-    "Testing",
-    "Cypress.io",
-    "Talking About Testing",
-    "Cypress Básico",
-    "Escola TAT"
-  ],
-  "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev/)",
-  "license": "MIT",
-  "homepage": "https://github.com/wlsf82/cypress-basico-v2#readme"
+    "name": "curso-cypress-basico",
+    "version": "^1.0.0",
+    "description": "Exercícios do Curso Básico de Cypress da escola Talking About Testing (Udemy)",
+    "scripts": {
+        "cy:open": "cypress open",
+        "test": "cypress run",
+        "open:mobile": "cypress open --config viewportWidth=410,viewportHeight=860",
+        "test:mobile": "cypress run --config viewportWidth=410,viewportHeight=860"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/JVMatos/Curso-Cypress-Basico.git"
+    },
+    "keywords": [
+      "Testing",
+      "Cypress.io",
+      "Talking About Testin",
+      "Cypress Básico",
+      "QA",
+      "Software Test"
+    ],
+    "author": {
+      "name": "João Vitor Matos",
+      "email": "joao.matos@fatecitapetininga.edu.br",
+      "url": "https://github.com/JVMatos/"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "cypress": "^9.5.1"
+    }
 }
