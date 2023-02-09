@@ -202,7 +202,7 @@ describe("Central de Atendimento ao Cliente TAT", () => {
             expect(body).to.include("CAC TAT");
         });
     });
-    it.only("Encontrar o gato", () => {
+    it("Encontrar o gato", () => {
         cy.get("#cat").invoke("show").should("be.visible");
         cy.get("#title").invoke("text", "CAT TAT");
         cy.get("#subtitle").invoke("text", "Y ❤️ CAT's");
