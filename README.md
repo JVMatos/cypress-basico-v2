@@ -14,7 +14,7 @@ Run `npm install` (or `npm i` for the short version) to install the dev dependen
 
 ## Tests
 
-You can run the tests simulating a desktpo or mobile viewport.
+You can run the tests simulating a desktop or mobile viewport.
 
 ### Desktop
 
